@@ -9,5 +9,6 @@ Download the file into your direcoty.
 
 in the Main terminal of Cadence run the following command.
 
-loadi("/path/to/myscript.il")   ; Executes and prints each line/output to CIW
+loadi("/path/to/listMetalLayersWithDimensions.il")   ; Executes and prints each line/output to CIW
 
+listMetalLayersWithDimensions()
