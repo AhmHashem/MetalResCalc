@@ -6,8 +6,11 @@ This SKILL script analyzes selected metal shapes in Cadence Virtuoso, extracting
 
 Download the file into your direcoty.
 
-in the CIW run the following command.
+in the CIW run the following commands.
 
-loadi("/path/to/listNetsFromSelection.il")   ; Executes and prints each line/output to CIW
+ - loadi("/path/to/listNetsFromSelection.il")   ; Executes and prints each line/output to CIW
+ - select the metals needed 
+ - listNetsFromSelection()
 
-listNetsFromSelection()
+They will show up in your CIW window.
+
