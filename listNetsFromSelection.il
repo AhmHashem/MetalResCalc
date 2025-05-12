@@ -1,5 +1,5 @@
 
-procedure(listMetalLayersWithDimensions()
+procedure(listNetsFromSelection()
   let((selSet layerDict obj layerName bBox ll ur width length area foundLayers totalResistance multiplier)
     ; Define metal multipliers as a separate table
     metalMultipliers = makeTable("metal multipliers" 1.0) ; Default multiplier = 1.0
