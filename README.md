@@ -14,3 +14,5 @@ in the CIW run the following commands.
 
 They will show up in your CIW window.
 
+![Outputs_Metals](https://github.com/user-attachments/assets/6f4e4379-c42c-4ea6-a2b7-5d565141f937)
+![Metals_selection](https://github.com/user-attachments/assets/8cf014e4-f615-46e4-b061-f0d8deb08c49)
