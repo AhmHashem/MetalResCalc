@@ -17,10 +17,10 @@ Results will be printed in your CIW window as shown in figure 2
 
 ![Metals_selection](https://github.com/user-attachments/assets/8cf014e4-f615-46e4-b061-f0d8deb08c49)
 
-=======================================  Figure 1  ============================================
+=======================================  Figure 1  =========================================
 
 
 
 ![Outputs_Metals](https://github.com/user-attachments/assets/6f4e4379-c42c-4ea6-a2b7-5d565141f937)
 
-=======================================  Figure 2  ============================================
+=======================================  Figure 2  =========================================
