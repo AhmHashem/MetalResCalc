@@ -1,18 +1,26 @@
 # MetalResCalc
-This SKILL script analyzes selected metal shapes in Cadence Virtuoso, extracting their width, length, and area. It groups shapes by metal layer, then reports shape counts, dimensions, and total area per layer—ideal for layout auditing and metal utilization checks.
+Description:
+
+This SKILL script inspects selected metal shapes in Cadence Virtuoso, extracting their width, length, and area. 
+It organizes shapes by metal layer and reports shape counts, dimensions, and total area—making it well-suited for layout audits and checking metal utilization efficiency.
+
+How to Use:
+
+Download the file into your directory. 
+Update the script with the correct metal resistivity values from your PDK documentation. 
+In the CIW, run the following commands: 
+- loadi("/path/to/listNetsFromSelection.il")
+- Select the desired metal shapes as shown in figure 1
+- Call listNetsFromSelection()
+Results will be printed in your CIW window as shown in figure 2
 
 
-# How to use
+![Metals_selection](https://github.com/user-attachments/assets/8cf014e4-f615-46e4-b061-f0d8deb08c49)
 
-Download the file into your direcoty.
+=======================================  Figure 1  ================================================
 
-in the CIW run the following commands.
 
- - loadi("/path/to/listNetsFromSelection.il")   ; Executes and prints each line/output to CIW
- - select the metals needed 
- - listNetsFromSelection()
-
-They will show up in your CIW window.
 
 ![Outputs_Metals](https://github.com/user-attachments/assets/6f4e4379-c42c-4ea6-a2b7-5d565141f937)
-![Metals_selection](https://github.com/user-attachments/assets/8cf014e4-f615-46e4-b061-f0d8deb08c49)
+
+=======================================  Figure 2  ================================================
